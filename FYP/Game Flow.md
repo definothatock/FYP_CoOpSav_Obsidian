@@ -32,6 +32,9 @@ What Exit Locating (Radio Infrastructure) brings?
 - Utility
 	- Can talk to all player from anywhere while using the infrastructure (up to debate)
 	- Temporal safe house (if the Infrastructure is a building, and should not be permanent, else fight with Exit)
+- Gameplay anchor
+	- Clear Objective for players to plan with. It should be one of the most consistent objective in the entire game.
+	- Tower structure provides a solid directional landmark, reduce the frequency of player being 'lost in the wood'.
 
 What Scavenging strategy brings?
 - Splitting up
@@ -39,16 +42,17 @@ What Scavenging strategy brings?
 		- more squadrons = more coverage running in parallel
 	- Risk
 		- no helping hands
-			- If one is in great risk, they are likely to be out for the round 
+			- If one is in great risk, they are likely to be out for the round
+			- If Recourse / Loot are drop, hard to retrieve for teammates
 		- Communication
-			- distance groups cannot communicate so easily (needs Radio tower? specific loot?)
+			- distance groups cannot communicate so easily (Radio emitter limits to Radio Infrastructure / specific loot?)
 		- Reformation
 			- Require some good planning / resource (flare?), or shouting to mic (this should be allowed because it's funny)
 - Stay as a pack
 	- Less risk, less coverage.
 
 Extra: What If small number of players (1/2)?
-- some balancing required. for now we assume more player, so ignore.
+- some balancing required. for now we assume more player, ignores largely.
 
 ### Indicator for Time
 Not prioritized, but great to have.
@@ -73,8 +77,9 @@ Level start -> plan scavenging strategy -> Searching (exit && loot)  -> Leave le
 - Extra: Select previous saved Loots (utilities)
 	- player saved loot is always accessible during setup. 
 	- this does not hard contribute to the core game loop, still nice to have.
+
 ## Main Phase: Searching
-3 main tasks:
+3 main tasks in parallel:
 - Resource Management
 - Risk and reward (Loot)
 - Exit Plan
@@ -95,11 +100,13 @@ Loot
 	- For simplicity, once collected, all Value should be displayed right away.
 
 Exit Plan
-- Either directly find the Exit by luck, or use Radio Infrastructure to location Exit.
+- Either use Radio Infrastructure to location Exit, or directly find the Exit by luck.
+- Illusion of choice: Should make players to consider finding Radio Infrastructures often. It provides a very apparent objective (so player doesn't feel lost) and it encourages planned map exploration. 
+- Still, there might be way to find the Exit without Radio Infrastructures (using loot utilities?), this allows 'power plays'.
 
-
-## End Phase: Exiting
-The only requirement for entering Exit: Met minimum loot Value as a whole, everyone can contribute.
+## End Phase 
+### option 1: Exiting
+The only requirement for entering Exit: Met minimum loot Value as a whole (raw sum), everyone can contribute.
 - Meeting the requirement
 	- Enter the Final Safe Point
 	- Select the loot to pay
@@ -107,14 +114,23 @@ The only requirement for entering Exit: Met minimum loot Value as a whole, every
 		- *Hoard extra Loot, for later use or pride*
 		- *Visit shop to buy certain exclusive tools (not permanent to avoid power creep?)*
 - Failing the requirement
-	- Locked out from Exit and forced to find a way to find more loot.
-	- Can return to Entrance as last resort / fail save option? (punishment for not even finding exist?)
-	- Can still Exit but suffer from loan? (must repay next round?)
+	- Can still Exit but suffer from loan? (must repay next round? higher quota next round?)
 	- Player should always avoid this at all cost.
 
 as long the round is finished successfully (enough Value), death penalty should not be too harsh.
 
-up to debate: should Exit also provide Radio infrastructure? let 'finished' player to help lost player?
+up to debate: 
+- should Exit also provide Radio infrastructure? let 'finished' player to help lost player?
+- should Required Value be known from the beginning?
+- Required Value scale with numbers of player?
+
+### option 2: All Failed to leave
+ - all progress in that round is lost. (some more punishment?)
+ 
+### option 3?: Return to Entrance
+- Can return to Entrance as last resort / fail save option? (punishment for not even finding exist?)
+- Player might abuse? discourage Progression? discourage heroic moments? 
+
 
 
 Extra: There might be Artificial events during leave, to increase player stress (overkill pairing with Environmental hazard?)
@@ -122,7 +138,8 @@ Extra: There might be Artificial events during leave, to increase player stress 
  ---
 # Main Events During Runs
 There are different possible things to happen during runs.
-Game Flow is directed by time. Thus, events are split into dependence with time:
+Since Game Flow is directed by time, it should be somewhat **predictable**, even if it is randomized.
+Thus, events are split into dependence with time:
 
 ### Time Independent / Time Weighted
 - Creature encounter

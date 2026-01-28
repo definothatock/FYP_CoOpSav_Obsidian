@@ -90,7 +90,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -271,11 +271,11 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e70bb083eaa2674c",
+  "active": "2462e519c11f6509",
   "lastOpenFiles": [
-    "FYP/Core mechanics.md",
-    "FYP/Game Flow.md",
     "FYP/Idea Branch/Environment.md",
+    "FYP/Game Flow.md",
+    "FYP/Core mechanics.md",
     "FYP/Idea Branch/Scene.md",
     "FYP/Idea Branch/Music.md",
     "FYP/Idea Branch/Creature.md",

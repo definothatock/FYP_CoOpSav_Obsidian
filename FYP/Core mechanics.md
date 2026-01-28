@@ -68,6 +68,7 @@ All decision lead to more Loots / save Loots.
 - Safe loot
 	- almost a pick up and go, maybe a little hassle
 	- always low in value, should give a vibe or "yeah sure why not"
+	- rarely has any real, good use.
 - Mediocre loot
 	- Post noticeable inconvenience retrieving / carrying
 - Legendary loot
@@ -104,9 +105,14 @@ Extra category that are specific to inconvenience:
 	- breaks on certain condition
 - handling
 	- needs to treat in specific way / cannot be put in backpack
+- Availability
+	- Some Loot are awesome (good utility + low drawback), in this case they should be 'expired' after using it (reduce/lost value)
+- Inventory shape
+	- Some loot might be good in Utility / Value, but they are awful to be placed in backpack (Grid).
 
 ## 'Useless' loot
 - Not poritized. Doesn't affect core gameplay, mainly for shit and giggles. Can be cosmetic too. 
+
 
 ---
 # Player Abilities
@@ -120,7 +126,11 @@ Amount of Revives is hard limited, up to debate.
 Up to debate: Free health upon finishing the round?
 ## Death
 round permanent, all loot is dropped, on spot.
-Actually Dead player may play as a drone (cannot talk). Drone can only perform small actions (or just watching and pinging).
+- Extra: Actually Dead player may play as a drone.
+	- They cannot talk directly, but perhaps make some beep sounds? 
+	- Drone can only perform small actions (or just watching and pinging).
+	- During Major events (last player hunted by oppressor?), Drones are all deactivated (intensify stress for the lonewolf?)
+
 Dead player are revived for free at the end of each round.
 
 If we make permanent upgrade: 
