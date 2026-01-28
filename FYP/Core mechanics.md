@@ -20,7 +20,7 @@ what are the main resources to manage in this game?
 - Loot^2
 - Time
 - Weight^3
- *Stamina & Health can be the same resource (Max Stamina cap by Max Health, like Peak)* ^1
+*Stamina & Health can be the same resource (Max Stamina cap by Max Health, like Peak)* ^1
 *Inventory Space does not count. Direct consequence should be handled by Value/Weight.*^2
 *Weight may more may not be a thing, it depends on the consequence.* ^3
 
@@ -62,9 +62,10 @@ External obstacles constrains
 ---
 # The Core Resource: Loot
 All decision lead to more Loots / save Loots.
+==For balancing and Simplicity: Most loot should have **1 use**, and **no more than 2 use** for all loot.==
 
-## Type of Loots in General:
-- Save loot
+## Loots in General:
+- Safe loot
 	- almost a pick up and go, maybe a little hassle
 	- always low in value, should give a vibe or "yeah sure why not"
 - Mediocre loot
@@ -75,31 +76,86 @@ All decision lead to more Loots / save Loots.
 
 ## Type of Loot Utilities
 Usefulness and Effectiveness almost entirely based on world building.
+Better tools should comes with greater constraints / scarcity / drawbacks. 
+Tools can have/blend from these categories:
 - Mobility 
-	- 
+	- Provides movement/route that would otherwise hard to perform.
+	- Rope Cannon? teleportation? swapping?
+- Control
+	- Limit Target's mobility.
+	- Decoy? Stunner?
+- Survivability
+	- Increase the odds for a player to keep on playing.
+	- health pack? extra revive? cure curse (from tool, reviving etc)? 
 - Lethality
-	- 
+	- Reduce Target's Survivability. 
+	- Entirely up to creativity. Usually will draw some resource from player is used.
+	- as simple as fireball (1 time use, loss value), as complicated as charge up beam (requires time to do on spot charge up).
 - Information
-	- 
-- 
+	- Provides knowledge for planning.
+	- Motion Tracker? Geiger Counter? Bio-Scanner? Flares? locate other loot? weather forecast?
+- General
+	- Power Cell / Battery
 
-## Type of Loot inconvenience:
-- Mobility 
-	- 
-- Lethality
+## Type of Loot inconvenience
+Same categories with 'Utilities', but instead the effects are not so kind to players.
+Extra category that are specific to inconvenience:
+- Fragility
+	- breaks on certain condition
+- handling
+	- needs to treat in specific way / cannot be put in backpack
 
-
+## 'Useless' loot
+- Not poritized. Doesn't affect core gameplay, mainly for shit and giggles. Can be cosmetic too. 
 
 ---
-# Player's Core Placement 
+# Player Abilities
 Players 
-
 ### Reviving
-Requires a long 'RPC' act, within a time limit.
-Amount if Revive is hard limited (no increment life)
-Actually Dead player may play as a drone. Drone can only perform small actions (or just watching and pinging)
-If we make permanent upgrade: Actually Dead player's core must be brought to exit to regain some permanent upgrade
+There is a phase where player is in 'coma'.
+Reviving player from 'coma' requires a long 'CPR' act within a time limit, and the helping player cannot move.
+There might be tools to reduce the Time needed to revive player. But nothing should revive actual 'dead' (to emphasis urgency).
+Amount of Revives is hard limited, up to debate.
+
+Up to debate: Free health upon finishing the round?
+## Death
+round permanent, all loot is dropped, on spot.
+Actually Dead player may play as a drone (cannot talk). Drone can only perform small actions (or just watching and pinging).
+Dead player are revived for free at the end of each round.
+
+If we make permanent upgrade: 
+Actually Dead player's core must be brought to exit to regain some permanent upgrade.
+
+Up to debate: should replenish Amount of Revives?
+## Extra: Saving
+Players can save extra loot, or trade them for currency.
+not pioritized in development.
+
 
 
 ---
 # Creatures 
+Essentially, Creatures are the dynamic puzzles from the environment.
+As for now, Creatures are separated into 3 category: harmless, hostile, oppressive.
+
+### harmless
+Harmless creature usually are very passive, and essentially are 'loots on the move' on framework level. 
+To player they are:
+- Lesser Tools, like some loot but less effective (Noisy bug make distraction? light bug gives some radiating light for a while?)
+- Some unique Value (normal loot does not move)
+
+### Hostile
+Almost always cost player any type of resources of ignored, even if the consequence is not immediate.  How they achieve that is up to creativity, but generally treat Hostile Creatures as ops players, they will use their **Utilities** to go against your **Resources**. This metal model allows Player to Creature back-and-forth.
+
+### Oppressive
+This is the least prioritized, as it require serious environment building, good amount of trial-and-error to make it convincing.   
+Player literally cannot 'defeat' this type of Creature. This is to pressure player during the run, or punish player who disrespected the environment. Could draw some inspiration from actual horror games. 
+Highly tied with Time.
+
+---
+# Environmental Hazard  
+Another form of environmental dynamic puzzles.
+Highly tied with Time.
+
+There is no fixed set of categories. Environmental Hazard is more about world building, aesthetic choice or Environmental story telling.
+And since there is no aggressive act that player can perform to grand scale Hazards, Hazards should not be too lethal (one shot dead = no back and forth). Still, it should be fearful.
