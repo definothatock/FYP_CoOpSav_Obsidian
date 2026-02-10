@@ -8,7 +8,7 @@ Always use the 5W 1H to reason the thing that you are building. It is simple yet
 Core sections:
 [[Core mechanics]]
 [[Game Flow]]
-[[World Building]]
+[[Background-or-WorldBuilding]]
 [[Art Direction]]
 
 Engine Related:

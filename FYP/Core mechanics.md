@@ -154,7 +154,7 @@ https://www.youtube.com/watch?v=Jqh7SVpMR1o
 Players 
 
 ### Play tactics / style
-Player should be some what valuable by themselves in the game. Without specific condition / Loots, player should always play it 'smart' (stealth, disengage).
+Player should be some what vulnerable by themselves in the game. Without specific condition / Loots, player should always play it 'smart' (stealth, disengage).
 
 ### Reviving
 Cost players Time.
