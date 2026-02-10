@@ -4,17 +4,17 @@ Tarkov/Arc Raider without the unlimited gun, repo/lethal with more map/loot dyna
 
 ## Requirement:
 - Hard
-	- Scores
-		- Can Only Leave with enough Loot/Value. (maybe allow loaning, but only for 1 round?)
-		- Can Return to Entrance as fail safe. But some punishment should be introduced (Life Support fee? no map regeneration?) 
+	- Scores (Value)
+		- Leave with enough Loot/Value. (maybe allow loaning, but only for 1 round?)
+		- *Up to debate: Entrance as fail safe. But some punishment should be introduced (Life Support fee? no map regeneration?)* 
 - Soft
 	- Time
 		- **Encourage route commitment, punishes indecision.**
 		- As time pass the environment gets harsher
 		- Even if time is up, should not be impossible and allows risk runs
-	- Exit Locating (optional)
+	- Exit Locating (optional for player)
 		- **Converts time into information certainty, and creates temporal hub.**
-		- Find Radio Radio Infrastructures (more Towers/Emitters help locating Exit better. Maybe fake triangulation?)
+		- Find Radio Infrastructures (more Towers/Emitters help locating Exit better. Maybe fake triangulation?)
 		- Radio devices require fixing, and failed fixing might attract hostile creatures / create hazard (should not be too annoying/frequent)
 	- Scavenging strategy
 		- **Trades coverage for rescue capability.**
@@ -36,7 +36,7 @@ What Exit Locating (Radio Infrastructure) brings?
 	- Can talk to all player from anywhere while using the infrastructure (up to debate)
 	- *Need actual testing: Provide limited use device that bring back actually dead player? (too powerful?)*
 	- *Up to debate: temporal Value extraction point? reduce the risk of last moment failure?* 
-	- *Up to debate:Temporal safe house (if the Infrastructure is a building)* 
+	- *Up to debate: Temporal safe house (if the Infrastructure is a building)* 
 - Gameplay anchor
 	- Clear Objective for players to plan with. It should be one of the most consistent objective in the entire game.
 	- Tower structure provides a solid directional landmark, reduce the frequency of player being 'lost in the wood'.
@@ -70,14 +70,16 @@ to alert player about time/phases (and related events/locations):
 - Ambient
 	- The least important, as it gives little clues. different background noise that indicate time/events.
 	- However, very power at giving subtle clues. 
+A good reference for this is L4D2's director system. 
 
 ---
-# Thus, Detailed flow:
-Level start -> plan scavenging strategy -> Searching (exit && loot)  -> Leave level in time.
+# Thus, Detailed Gameplay Phases (flow):
+Level start -> plan scavenging strategy -> Searching (exit && loot)  -> Leave level.
 
+Below are the phased that player ***will experience*** during each run, ***regardless of time spent***.
 ## Starting Phase: New Round
 - Given per-round Tools (player might have lost it, but always replenish with limited amount each round)
-	- to clue Radio device locations (they are clues to the final exit, should not be as vague as the exit)
+	- to clue Radio infrastructure locations (they are clues to the final exit, should not be as vague as the exit)
 	- baseline tools (e.g. beacon, for revisiting location? flare for indicating actions?)
 - Extra: Select previous saved Loots (utilities)
 	- player saved loot is always accessible during setup. 
@@ -164,6 +166,14 @@ When time runs out, these events increase in odds (or just happens):
   
 Extra: To encourage risk play, some loot might spawn after time runs out:
 - specific loot that is only available in threatening environment (storm in a glass?) 
+
+---
+# Time Phases (per game cycle)
+This is the the Phases that are directed by ***Time***. Player ***may or may not*** experience it each cycle. 
+
+
+Some Reference: 
+https://left4dead.fandom.com/wiki/The_Director
 
 ---
 # Extra

@@ -14,7 +14,7 @@ Why resource management (why game/fun)?
 What we aim?
 - Mainly Loot / values. Most straightforward and simple.
 
-what are the main resources to manage in this game?
+### what are the main resources to manage in this game?
 - Stamina^1
 - Health^1
 - Loot^2
@@ -22,7 +22,7 @@ what are the main resources to manage in this game?
 - Weight^3
 *Stamina & Health can be the same resource (Max Stamina cap by Max Health, like Peak)* ^1
 *Inventory Space does not count. Direct consequence should be handled by Value/Weight.*^2
-*Weight may more may not be a thing, it depends on the consequence.* ^3
+*Weight punish stamina regeneration? ^3
 
 Why should player care these resource?
 - Stamina
@@ -59,10 +59,43 @@ External obstacles constrains
 		- Getting Revived by Peers should not comes with 0 consequence, and should not be able revive many times.
 		- Up to debate: Reduce Max Health / Stamina?
 
+### Special Resources that do not directly live in the game
+These resources faces towards the player, instead of the game framework.
+They highly depends on the player, and we as developers/designers, we do not have full control. Still, they are very important in terms of 'game experience'.
+- Cognitive Load
+	- How much the player need to think/plan
+- Skill Requirement
+	- How harsh is the mechanical difficulty the player is facing
+
 ---
 # The Core Resource: Loot
 All decision lead to more Loots / save Loots.
 ==For balancing and Simplicity: Most loot should have **1 use**, and **no more than 2 use** for all loot.==
+
+### Encouraging smart play: 
+Using loot might reduce it's value, so player could never have a 'god tool' forever. On paper, this should encourage player to be more aware of the situation and player smarter.
+However, humans have strong min-max behaviours (hoarding). If using loot = consistence lost in value (damage/break), it will lead to player just not using any tool, minimize loss, maximize score (even if in short term they are going to die). This kills the intension for smart play.
+
+So instead, some 'decent' tool should not loose value directly proportional to use-time. Alternatives can be:
+- Depletion base
+	- explicit damaging threshold. Punish bad counting.
+	- can be recharged, but hitting '0' will risk reduce value
+- Overcharging state
+	- Push beyond standard use. Punish abusing.
+	- hard to recharge, but allow 'over use', each time will risk reduce value by chance
+	- This could suggest a stronger use variant (overcharging on demand)
+- chassis
+	- using it does not loose value at all. Instead it required external value reduction (battery? Ammo?)
+	- This is the most common one among games, basically Bow and Arrows. Unless we gate external value too, player might still be able to have 'god tool' 24/7. (this is not bad if there is a proper level scaling system, but rn we do not have it)
+- Fixable
+	- There is chances to fix it. It could be limiting fixing chance, requires certain condition, or any way that makes the damage 'reversible' (with a cost).
+- ...
+- ...
+
+Most 'broken' loot should also provide minimal value, so 'cashing in' or being careless would not feel too punishing. 
+
+The way how a loot is damage/broken gives heavy hits to player how the tool was intended-to-use / limited. In such, We should find a way to let player knows how the tool loose their values. The most straightforward way is writing them in description (or a better one could be unlocking base: next time it shows basic info if they have been turned-in before).
+Also, the Weight and Inventory Size are also a good sign to let player knows 'you can't take all, use some, smartly'.
 
 ## Loots in General:
 - Safe loot
@@ -151,8 +184,6 @@ Up to debate: should replenish Amount of Revives?
 Players can save extra loot, or trade them for currency.
 not pioritized in development.
 
-
-
 ---
 # Creatures 
 Essentially, Creatures are the dynamic puzzles from the environment.
@@ -206,3 +237,6 @@ Depends on what the Hazard is, in general the Counterplay Categories (all inform
 	- Some method to reduce the effect temporarily? 
 - Exploit
 	- Risk and use the nature of the Hazard (time the knockback?)
+
+---
+# Game Director

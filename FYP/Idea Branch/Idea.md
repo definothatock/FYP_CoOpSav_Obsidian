@@ -1,5 +1,5 @@
 [[Gameplay]]
-[[Item]]
+[[Item and Loot]]
 [[Random]]
 [[Scene]]
 [[Background]]
