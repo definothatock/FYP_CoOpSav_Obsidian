@@ -19,7 +19,7 @@ What we aim?
 - Health^1
 - Loot^2
 - Time
-- Weight^3
+- Inventory (Weight & Space)^3
 *Stamina & Health can be the same resource (Max Stamina cap by Max Health, like Peak)* ^1
 *Inventory Space does not count. Direct consequence should be handled by Value/Weight.*^2
 *Weight punish stamina regeneration? ^3
@@ -37,8 +37,11 @@ Why should player care these resource?
 - Time
 	- There should be a limit of how long a player can linger around the same location / round.
 	- Directly affect the amount of loot players can get.
-- Weight
-	- Affect Speed/Max Stamina/Stamina Regeneration (up to debate)
+- Inventory
+	- Weight
+		- Affect Speed/Max Stamina/Stamina Regeneration (up to debate)
+	- Space
+		- Affect how much of item the player can carry
 
 External obstacles constrains
 - Environment
@@ -145,6 +148,10 @@ Extra category that are specific to inconvenience:
 
 ## 'Useless' loot
 - Not poritized. Doesn't affect core gameplay, mainly for shit and giggles. Can be cosmetic too. 
+
+## How players can know the item?
+- Knowledge-transfer
+	- the purpose is understood via environmental reading and prior experience
 
 A very good reference about what loot to make:
 https://www.youtube.com/watch?v=Jqh7SVpMR1o

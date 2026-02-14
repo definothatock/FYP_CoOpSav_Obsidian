@@ -9,6 +9,9 @@ Tools
 	- Stairfold/Scaffold/folding Bridge
 	- spring jump
 	- teleport thingy?
+	- a parachute like umbrella?
+	- something that create a gut of wind?
+	- something that change gravity?
 - Control
 	- EMP (not grenade, lame)
 	- time zone?
