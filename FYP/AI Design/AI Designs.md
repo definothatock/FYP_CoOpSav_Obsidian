@@ -22,13 +22,8 @@ Perception Input -> Evaluator init MemUpdateContainer based on existence in arra
 
 
 
+# SCRAPPED:
 
-
-# some random algo design from AI? huh:
-
-Below is a lightweight foundation you can layer on top of your current Working Memory entries. I’ll keep everything engine‑agnostic enough for Blueprint prototyping, but note where a future C++ helper library can take over.
-
----
 
 ## 1. Normalize the raw data
 
@@ -175,13 +170,6 @@ function EvaluateMemoryEntry(Entry, Weights):
 5. Run `SelectFocusFromArray` to apply step 6 above.
 6. Broadcast `OnFocusUpdated(FWorkingMemoryEntry, EMotivationType)` to the state tree.
 
----
-
-## 8. When to move to C++
-
-- **Scoring math** (threat, confidence, opportunity) — no Blueprint loops over dozens of entries each tick.
-- **Sorted selection** — implement `SelectFocus` in C++ so you can `TArray::Sort` or use deterministic partial reduce.
-- **Decay helpers** — you already plan to move from tick to event-driven; C++ timers or gameplay tasks will help keep costs down.
 
 ---
 
@@ -193,18 +181,6 @@ function EvaluateMemoryEntry(Entry, Weights):
 |**Sound baiting**|If `Heard` without LOS, bump Investigate motivation but clamp Threat until confirmed.|
 |**Fear stacking**|Track `AccumulatedDmgToSelf` vs `Confidence` to trigger panic flee spirals like Rain World.|
 |**Ambient distraction**|Inject dummy entries (e.g., loud machinery) with low Threat but high Investigate to pull AI.|
-
----
-
-## 10. Validating the loop
-
-1. **Unit test** C++ scoring with deterministic entries (use `AutomationSpec`).
-2. **Debug draw** overlay: color boxes by dominant motivation (red attack, blue flee, yellow investigate).
-3. **Data table** for per-species `FWorkingMemoryScoringWeights` so you can quickly iterate.
-
----
-
-This should give you a sturdy baseline: a normalized signal layer, a handful of transparent formulas for Threat/Confidence/Opportunity, a motivation vector, and a surgical focus switcher that honors your existing `SwitchMargin` / `SwitchCooldownSeconds`. Start light in Blueprint, then migrate the hot loops into `UMemSys_WorkingMemoryScoringLib` once the behavior feels right.
 
 
 [[Creature Behaviour Machine]]

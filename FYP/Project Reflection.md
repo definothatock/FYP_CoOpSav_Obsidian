@@ -1,4 +1,14 @@
-This section aims to evaluate what we have decide and made, then reflect what could have been done better, what mistake should have avoided.
+FYP Project effectively stopped all development and wrapped up on 8/4/2026.
+
+ This section aims to evaluate what we have decide and made, then reflect what could have been done better, what mistake should have avoided.
+
+# THE GOOD
+
+we actual got a working game, that is multiplayer with ok netcode (with UE framework ofc)
+
+It has all the basic elements we promised, at least implimented
+
+# THE BAD
 
 ### Building several games at once, while still learning on the fly
 We tried to build:
@@ -13,5 +23,23 @@ Cooperative game focus on player-player, moment-moment dynamics, in more solid t
 
 ### No clear separation of speciality for each member at start
 justified for small member / still it is better to have someone dedicated to make related things. Did have half way through 
+
+AI failed ()
+
+VOIP Failed
+
+Not "dynamic" as we initially declared, AI, item, no more dynamic music too
+
+"psychological tension" is not very tense 
+
+'procedural gen' was actually lengthening the cycle in our current menpower and scale  
+
+no core juice for procedural generation: great variation and combination of items 
+
+out theme of custom models
+
+play test
+
+
 
 ### 
