@@ -5,6 +5,7 @@
   - The project reached playable Alpha and scored A-/A. Academically it fulfilled its purpose.
   - Manpower shifts. The current project scope exceeds what the remaining team members can maintain effectively.
 
+### Detail
 Some of the content is AI-generated because this Vault is only acting as a quick knowledge fetch (and the analyses of those mistakes made); Some are scraped from the internet; the rest are written by me.
 
 insert Dr.House-tongue-out-phone-call.gif here
