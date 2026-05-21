@@ -42,4 +42,7 @@ play test
 
 
 
-### 
+### Actual Outcome
+Got A-/A. Academically good.
+From the comments it is clear that is project is to chaotic. (too much elements in terms of how many man power we got, bad polishing and cohesion)
+Next project should much smaller and denser.

@@ -41,7 +41,7 @@ Always use the 5W 1H to reason the thing that you are building. It is simple yet
 
 # Core Gameplay and Pace
 [[Core Framework (rules and mechanics)]]
-[[Game Flotw]]
+[[Game Flow]]
 
 # Controls
 Movement

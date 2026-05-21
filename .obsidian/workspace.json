@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7597535e48329308",
+        "id": "5d342806251a1221",
         "type": "tabs",
         "children": [
           {
-            "id": "b9eb4ff9a73dfdab",
+            "id": "88164ef4159a56b7",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -18,31 +18,7 @@
             }
           },
           {
-            "id": "069b2918e8a9ed25",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FYP/AI Design/AI Designs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AI Designs"
-            }
-          },
-          {
-            "id": "cb0fdc29fade3feb",
+            "id": "836deab208187adf",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,57 +40,9 @@
               "icon": "lucide-file",
               "title": "Project Reflection"
             }
-          },
-          {
-            "id": "4b9c8d070ebef961",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FYP/FYP.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "FYP"
-            }
-          },
-          {
-            "id": "99f3abe9b9e4da60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "FYP/Core Framework (rules and mechanics).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Core Framework (rules and mechanics)"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -295,16 +223,19 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "cb0fdc29fade3feb",
+  "active": "836deab208187adf",
   "lastOpenFiles": [
-    "FYP/Project Reflection.md",
-    "FYP/AI Design/AI Designs.md",
     "FYP/FYP.md",
     "FYP/Core Framework (rules and mechanics).md",
+    "FYP/Game Flow.md",
+    "FYP/Game Flotw.md",
+    "FYP/Custom Online Session Subsystem.md",
+    "UE5/Online/Online SubSystem/Online SubSystem.md",
+    "FYP/Project Reflection.md",
+    "FYP/AI Design/AI Designs.md",
     "FYP/AI Design/Scoring.md",
     "FYP/AI Design/Working Memory.md",
     "FYP/AI Design/Creature Behaviour Machine.md",
-    "FYP/Game Flow.md",
     "README.md",
     "FYP/Background-or-WorldBuilding.md",
     "FYP/Art Direction.md",
@@ -316,13 +247,10 @@
     "FYP/Idea Branch/Scene.md",
     "FYP/Idea Branch/Background.md",
     "FYP/Idea Branch/Idea.md",
-    "UE5/Online/Online SubSystem/Online SubSystem.md",
-    "FYP/Custom Online Session Subsystem.md",
     "FYP/Other/DumbArse shit I've done.md",
     "FYP/World Building.md",
     "Bin.md",
     "test1.md",
-    "test2.md",
     "UE5/Online/Replication",
     "UE5/Multi-threading",
     "FYP/Other",
