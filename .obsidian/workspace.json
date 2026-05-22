@@ -18,12 +18,12 @@
             }
           },
           {
-            "id": "836deab208187adf",
+            "id": "29933f0e6b032f19",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FYP/Project Reflection.md",
+                "file": "FYP/Core Framework (rules and mechanics).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -38,7 +38,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Project Reflection"
+              "title": "Core Framework (rules and mechanics)"
             }
           }
         ],
@@ -133,11 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "FYP/Core Framework (rules and mechanics).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Core Framework (rules and mechanics)"
             }
           },
           {
@@ -175,12 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "FYP/Core Framework (rules and mechanics).md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Core Framework (rules and mechanics)"
             }
           },
           {
@@ -223,20 +225,21 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "836deab208187adf",
+  "active": "7daf5a987f9caaff",
   "lastOpenFiles": [
-    "FYP/FYP.md",
+    "README.md",
     "FYP/Core Framework (rules and mechanics).md",
+    "UE5/UE5.md",
+    "FYP/Project Reflection.md",
+    "FYP/FYP.md",
     "FYP/Game Flow.md",
     "FYP/Game Flotw.md",
     "FYP/Custom Online Session Subsystem.md",
     "UE5/Online/Online SubSystem/Online SubSystem.md",
-    "FYP/Project Reflection.md",
     "FYP/AI Design/AI Designs.md",
     "FYP/AI Design/Scoring.md",
     "FYP/AI Design/Working Memory.md",
     "FYP/AI Design/Creature Behaviour Machine.md",
-    "README.md",
     "FYP/Background-or-WorldBuilding.md",
     "FYP/Art Direction.md",
     "FYP/Collision Types.md",
@@ -250,7 +253,6 @@
     "FYP/Other/DumbArse shit I've done.md",
     "FYP/World Building.md",
     "Bin.md",
-    "test1.md",
     "UE5/Online/Replication",
     "UE5/Multi-threading",
     "FYP/Other",
